@@ -4,8 +4,8 @@ workflows:
     max_build_duration: 120
     environment:
       vars:
-        JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
-        ANDROID_SDK_ROOT: $HOME/Android/sdk
+        JAVA_HOME: /Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+        ANDROID_SDK_ROOT: $HOME/Library/Android/sdk
         VITE_BASE_URL: https://study-sync-mv99.onrender.com
       groups:
         - android
