@@ -30,8 +30,7 @@ workflows:
       - android/app/build/outputs/**/*.apk
     publishing:
       email:
-        recipients:
-          - $CODEMAGIC_EMAIL
+        enabled: true
         notify:
           success: true
           failure: true
