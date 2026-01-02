@@ -30,7 +30,8 @@ workflows:
       - android/app/build/outputs/**/*.apk
     publishing:
       email:
-        enabled: true
+        recipients:
+          - your-email@example.com
         notify:
           success: true
           failure: true
